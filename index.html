@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virus/Malware Scanner</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Virus/Malware Scanner</h1>
+        <p>Upload a file to scan for potential threats.</p>
+        
+        <form id="uploadForm">
+            <label for="fileInput" class="custom-file-upload">Choose File</label>
+            <input type="file" id="fileInput" name="file" required>
+            <button type="submit" class="scan-button">Scan File</button>
+        </form>
+
+        <div class="loading" id="loading">Scanning...</div>
+        <div class="result" id="result"></div>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

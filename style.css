@@ -1,0 +1,68 @@
+
+        body {
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+        .container {
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 350px;
+        }
+        h1 {
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #555;
+        }
+        input[type="file"] {
+            display: none;
+        }
+        .custom-file-upload {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #007bff;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+        .custom-file-upload:hover {
+            background: #0056b3;
+        }
+        .scan-button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 15px;
+            border: none;
+            background: #28a745;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .scan-button:hover {
+            background: #218838;
+        }
+        .result {
+            margin-top: 20px;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        .loading {
+            margin-top: 15px;
+            display: none;
+            font-size: 14px;
+            color: #888;
+        }
+    
