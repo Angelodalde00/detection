@@ -3,24 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Virus/Malware Scanner</title>
+    <title>Advanced Virus Scanner</title>
     <link rel="stylesheet" href="style.css">
-    
 </head>
 <body>
     <div class="container">
-        <h1>Virus/Malware Scanner</h1>
-        <p>Upload a file to scan for potential threats.</p>
+        <h1>🔍 Advanced Virus Scanner</h1>
+        <p>Upload a file to check for potential threats.</p>
         
         <form id="uploadForm">
-            <label for="fileInput" class="custom-file-upload">Choose File</label>
+            <label for="fileInput" class="custom-file-upload">📂 Choose File</label>
             <input type="file" id="fileInput" name="file" required>
-            <button type="submit" class="scan-button">Scan File</button>
+            <button type="submit" class="scan-button">🚀 Scan Now</button>
         </form>
 
-        <div class="loading" id="loading">Scanning...</div>
+        <div class="loading-container">
+            <div class="loading-bar" id="loadingBar"></div>
+        </div>
+        
         <div class="result" id="result"></div>
     </div>
-    <script src="scripts/script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
